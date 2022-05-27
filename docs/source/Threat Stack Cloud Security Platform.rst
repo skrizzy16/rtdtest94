@@ -1,8 +1,6 @@
 Threat Stack Cloud Security Platform
 =====================================
 
-.. _installation:
-
 TEST
 ------------
 
