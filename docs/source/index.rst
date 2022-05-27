@@ -4,9 +4,13 @@ Welcome to F5 Advanced Infrastructure Protection (Threat Stack's) documentation!
 Threat Stack’s high-efficacy threat detection combines standard rules and ML-based anomaly detection for uncovering both known and unknown threats in cloud-native infrastructure. Threat Stack provides customers with key capabilities and integrations to help overcome modern security and compliance challenges via: 
 
 `File Integrity Monitoring <https://www.threatstack.com/cloud-security-platform/file-integrity-monitoring>`_
+
 `Host-based Intrusion Detection <https://www.threatstack.com/cloud-security-platform/intrusion-detection>`_
+
 `Container & Kubernetes Security <https://www.threatstack.com/cloud-security-platform/container-security>`_
+
 `Vulnerability Assessment <https://www.threatstack.com/cloud-security-platform/vulnerability-assessment>`_
+
 `Cloud Management Console Monitoring <https://www.threatstack.com/use-cases/aws-security/cloudtrail-monitoring>`_
 
 
