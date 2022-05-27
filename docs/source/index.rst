@@ -20,7 +20,7 @@ Additionally, we can become an extension of your security team via our co-manage
 
 `Threat Stack Insight <https://www.threatstack.com/cloud-security-platform/insight>`_ – Custom reports tailored to inform and prioritize risk reduction projects to improve your security program.
 
-Check out the :doc:`usage` section for further information, including
+Refer to :doc:`Threat Stack Cloud Security Platform` section for further information regarding management of the platform, including dashboard, monitoring, detection, and investigation.
 how to :ref:`installation` the project.
 
 Lumache has its documentation hosted on Read the Docs.
@@ -35,5 +35,5 @@ Contents
 
 .. toctree::
 
-   usage
+   Threat Stack Cloud Security Platform
    api
