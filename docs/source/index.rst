@@ -34,6 +34,6 @@ Contents
 --------
 
 .. toctree::
-   
+   Threat Stack Cloud security Platform
    usage
    api
