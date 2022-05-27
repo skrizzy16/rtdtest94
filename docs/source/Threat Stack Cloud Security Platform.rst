@@ -1,4 +1,4 @@
-Usage
+Threat Stack Cloud Security Platform
 =====
 
 .. _installation:
