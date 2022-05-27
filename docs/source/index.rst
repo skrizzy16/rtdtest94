@@ -23,7 +23,7 @@ Additionally, we can become an extension of your security team via our co-manage
 Check out the :doc:`Threat Stack Cloud Security Platform` section for further information, including
 how to :ref:`installation` the project.
 
-Lumache has its documentation hosted on Read the Docs.
+Threat Stack has its documentation hosted on Read the Docs.
 
 
 .. note::
