@@ -10,7 +10,7 @@ TEST
 
 .. code-block:: console
 
-   (.venv) $ pip TEST
+   
 
 NOT A DUPE
 ----------------
