@@ -88,8 +88,6 @@ More detailed information about alert views #to do add link
 .. image:: _static/Investigate.png
 
 
-
-
 What is an Alert? 
 -----------------
 
