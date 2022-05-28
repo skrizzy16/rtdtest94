@@ -85,7 +85,9 @@ Live alert loading: The Alerts page displays alerts as they come in. It does not
 Search on alert titles: All tabs have a "Filter by Title" search field. Results appear as the users type in the words in the search bar. 
 
  
-More detailed information about alert views #to do add link
+More detailed information about alert views refer to the documentation below.
+
+https://threatstack.zendesk.com/hc/en-us/articles/205992556-Alert-View
 
 .. image:: _static/Investigate.png
 
