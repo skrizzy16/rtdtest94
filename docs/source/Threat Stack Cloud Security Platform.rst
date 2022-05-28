@@ -48,3 +48,12 @@ Detection
 ---------
 .. image:: _static/Rules.png
 By Selecting, Rules Page, you can review all the included pre-built rules that monitor common threats to any infrastructure. The Base Ruleset has been created by our rules council & SOC team to monitor for the most common attack vectors our experts see on a continuous basis. Due to the complexities of modern infrastructure, we also provide customers with the ability to create custom rules. This provides you with the ability to monitor for behaviors that matter to your unique infrastructure. 
+
+
+Rules Details Overview
+----------------------
+Select the options button to view available configurations for the rule selected. 
+.. image:: _static/Rules_Details_Overview.png
+
+
+
