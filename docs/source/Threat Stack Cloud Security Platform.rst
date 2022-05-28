@@ -24,7 +24,7 @@ By Selecting, Servers Page, you can filter or change information shown about ser
 
 For more information on other abilities navigate to our Servers Page Feature Walkthrough: https://threatstack.zendesk.com/hc/en-us/articles/360055728251-Servers-Page 
 
-Page Break
+
  
 Vulnerabilities
 ----------------
@@ -40,3 +40,4 @@ https://threatstack.zendesk.com/hc/en-us/articles/115001295270-Vulnerability-Ass
 AWS EC2 Integration 
 --------------------
 
+.. image:: _static/All_EC2_Page.png
