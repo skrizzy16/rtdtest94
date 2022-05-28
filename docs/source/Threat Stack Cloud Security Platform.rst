@@ -22,10 +22,11 @@ By Selecting, Servers Page, you can filter or change information shown about ser
 
 .. image:: _static/Servers.png
 
-For more information on other abilities navigate to our Servers Page Feature Walkthrough: https://threatstack.zendesk.com/hc/en-us/articles/360055728251-Servers-Page 
+For more information on other abilities navigate to our Servers Page Feature Walkthrough:
+
+https://threatstack.zendesk.com/hc/en-us/articles/360055728251-Servers-Page 
 
 
- 
 Vulnerabilities
 ----------------
 Threat Stack Agent retrieves a list of installed packages on the host each day and matches against all known Common Vulnerabilities & Exposures (CVEs) captured in the National Vulnerability Database (NVD). It then compares them against the published security notice and triage data from the specific Linux distribution. 
