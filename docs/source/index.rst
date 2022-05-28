@@ -30,7 +30,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development. Here is an update!
+   This project is under active development. Here is an update! Here is another update!
 
 Contents
 --------
