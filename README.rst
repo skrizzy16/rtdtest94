@@ -1,9 +1,11 @@
-Template for the Read the Docs tutorial
-=======================================
+Template for the F5 Threat Stack Agility Labs
+==============================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This tutorial outlines instructions for the F5 201 Lab for June 2022. 
 
-Read the tutorial here:
+Additional useful documentation:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://threatstack.zendesk.com/hc/en-us
+
+API documentation:
+https://apidocs.threatstack.com/
