@@ -60,6 +60,7 @@ Select the options button to view available configurations for the rule selected
 Edit Rule Enable
 ----------------
 Edit a rule by selecting the Down Arrow > Edit Rule 
+
 .. image:: _static/Edit_Rule_Enable.png
 
 Enable/Disable a Rule 
