@@ -1,4 +1,4 @@
-Welcome to F5 Advanced Infrastructure Protection (Threat Stack's) Documentation!
+Welcome to F5 Application and Infrastructure Protection (Threat Stack's) Documentation!
 =================================================================================
 
 **Threat Stack Cloud Security Platform**
