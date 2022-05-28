@@ -3,7 +3,8 @@ Threat Stack Cloud Security Platform
 
 .. image:: _static/Dashboard.png
 
-Dashboard 
+Dashboard
+----------
 
 To access the Dashboard, Log into Threat Stack: https://app.threatstack.com/login 
 
@@ -15,7 +16,19 @@ In the Password field, type your account password and click Next.
 
 For the lab enter, XXXXXXXX
 
-TEST
+Monitoring
+-----------
+By Selecting, Servers Page, you can filter or change information shown about servers, deploy Agents, and view a list of vulnerabilities found on the servers protected by the Agent. 
+
+.. image:: _static/ServersPage.png
+
+For more information on other abilities navigate to our Servers Page Feature Walkthrough: https://threatstack.zendesk.com/hc/en-us/articles/360055728251-Servers-Page 
+
+Page Break
+ 
+Vulnerabilities
+----------------
+ 
 
 .. code-block:: console
 
