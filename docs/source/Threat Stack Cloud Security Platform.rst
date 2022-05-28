@@ -90,3 +90,9 @@ More detailed information about alert views #to do add link
 
 
 
+What is an Alert? 
+-----------------
+
+Alerts are behavior anomalies elevated from the stream of raw telemetry by rule filters. 
+
+.. image:: _static/Alerts.png
