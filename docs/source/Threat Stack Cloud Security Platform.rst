@@ -53,6 +53,7 @@ By Selecting, Rules Page, you can review all the included pre-built rules that m
 Rules Details Overview
 ----------------------
 Select the options button to view available configurations for the rule selected. 
+
 .. image:: _static/Rules_Details_Overview.png
 
 
