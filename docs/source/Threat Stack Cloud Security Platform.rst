@@ -20,7 +20,7 @@ Monitoring
 -----------
 By Selecting, Servers Page, you can filter or change information shown about servers, deploy Agents, and view a list of vulnerabilities found on the servers protected by the Agent. 
 
-.. image:: _static/ServersPage.png
+.. image:: _static/Servers.png
 
 For more information on other abilities navigate to our Servers Page Feature Walkthrough: https://threatstack.zendesk.com/hc/en-us/articles/360055728251-Servers-Page 
 
