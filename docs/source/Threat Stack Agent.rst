@@ -16,5 +16,5 @@ TEST
 Check for other Agents
 ----------------------
 
-.. code-block:: console
+.. code-block:: 
    hello world!
