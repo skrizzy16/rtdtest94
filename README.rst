@@ -1,4 +1,4 @@
-Template for the F5 Threat Stack Agility Labs
+Readme F5 Threat Stack Agility Labs
 ==============================================
 
 This tutorial outlines instructions for the F5 201 Lab for June 2022. 
