@@ -47,6 +47,7 @@ With an Amazon Web Service (AWS) profile integration, the user can see exactly w
 Detection
 ---------
 .. image:: _static/Rules.png
+
 By Selecting, Rules Page, you can review all the included pre-built rules that monitor common threats to any infrastructure. The Base Ruleset has been created by our rules council & SOC team to monitor for the most common attack vectors our experts see on a continuous basis. Due to the complexities of modern infrastructure, we also provide customers with the ability to create custom rules. This provides you with the ability to monitor for behaviors that matter to your unique infrastructure. 
 
 
@@ -67,8 +68,24 @@ Enable/Disable a Rule
 ---------------------
 By shifting the Status of the rule, you can Enable or Disable the rule.  
 
+.. image:: _static/Enable_Disable_Rule.png
 
 
+Investigate
+---------------------
+
+By selecting Alerts, you’ll see an organized list sorted by severity, number of occurrences, and time of occurrence. Our rules are generated in real-time and have a retention period of 365 days. This can help you better track the abnormal spikes of alerts and review the behaviors that caused the events. Additional UI details are defined below. 
+
+Tabs as focus areas: We narrowed in on the well-known concept of browser tabs as focus areas, with in-built default tabs and the ability for customers to create and save their own tabs. Each tab can be customized to match the originating rulesets and/or originating servers (EC2 tags). 
+
+Live alert loading: The Alerts page displays alerts as they come in. It does not delay the loading of alerts coming into the Threat Stack Cloud Security PlatformⓇ (CSP). 
+
+Search on alert titles: All tabs have a "Filter by Title" search field. Results appear as the users type in the words in the search bar. 
+
+ 
+More detailed information about alert views 
+
+.. image:: _static/Investigate.png
 
 
 
