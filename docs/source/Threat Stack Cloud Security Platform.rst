@@ -28,12 +28,15 @@ Page Break
  
 Vulnerabilities
 ----------------
+Threat Stack Agent retrieves a list of installed packages on the host each day and matches against all known Common Vulnerabilities & Exposures (CVEs) captured in the National Vulnerability Database (NVD). It then compares them against the published security notice and triage data from the specific Linux distribution. 
+
+https://threatstack.zendesk.com/hc/en-us/articles/115001295270-Vulnerability-Assessment-Feature-Overview 
 
 .. image:: _static/Vulnerabilities.png
 
 .. code-block:: console
 
-   
 
-NOT A DUPE
-----------------
+AWS EC2 Integration 
+--------------------
+
