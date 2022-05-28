@@ -28,7 +28,8 @@ Page Break
  
 Vulnerabilities
 ----------------
- 
+
+.. image:: _static/Vulnerabilities.png
 
 .. code-block:: console
 
