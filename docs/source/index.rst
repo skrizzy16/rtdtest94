@@ -1,4 +1,4 @@
-Welcome to F5 Advanced Infrastructure Protection (Threat Stack's) Documentation!
+Welcome to F5 Application and Infrastructure Protection (Threat Stack's) Documentation!
 ================================================================================
 
 Threat Stack Cloud Security Platform
@@ -24,7 +24,7 @@ Additionally, we can become an extension of your security team via our co-manage
 
 `Threat Stack Insight <https://www.threatstack.com/cloud-security-platform/insight>`_ – Custom reports tailored to inform and prioritize risk reduction projects to improve your security program.
 
-Check out the :doc:`Threat Stack Cloud Security Platform` section for further information, including test here test est est
+Check out the :doc:`Threat Stack Cloud Security Platform` section for further information for the lab.
 how to :ref:`installation` the project.
 
 
