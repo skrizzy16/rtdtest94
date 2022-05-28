@@ -57,4 +57,18 @@ Select the options button to view available configurations for the rule selected
 .. image:: _static/Rules_Details_Overview.png
 
 
+Edit Rule Enable
+----------------
+Edit a rule by selecting the Down Arrow > Edit Rule 
+.. image:: _static/Edit_Rule_Enable.png
+
+Enable/Disable a Rule 
+---------------------
+By shifting the Status of the rule, you can Enable or Disable the rule.  
+
+
+
+
+
+
 
