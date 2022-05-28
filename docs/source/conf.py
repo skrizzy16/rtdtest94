@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Threat Stack 201'
+copyright = '2022, Threat Stack/F5 Inc'
+author = 'Threat Stack/F5'
 
 release = '0.1'
 version = '0.1.0'
