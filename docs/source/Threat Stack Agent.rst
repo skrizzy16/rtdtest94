@@ -5,9 +5,7 @@ Deploying Threat Stack
 ----------------------
 Before you install the Threat Stack host-based Agent, you must prepare your Linux distribution to work with the Agent. 
 
-The Threat Stack host-based Agent uses the Linux Audit Framework to collect files, network, and process data.  
-
- 
+The Threat Stack host-based Agent uses the Linux Audit Framework to collect file, network, and process data.  
 
 Check for other Agents
 ----------------------
@@ -15,22 +13,22 @@ Check for other Agents
 .. note::
 
    Conflict can occur between the Threat Stack host-based Agent and other tools leveraging these kernels. Before deploying the Agent, ensure no other      tools that use these kernels. This is the result of a known Linux limitation where only one process can bind to the AuditD socket. 
-   
 
 
 Code Block to Check for The Threat Stack Agent on the machine
 
 .. code-block:: 
    
-   hello world!
+   sudo tsagent status
 
 
 Install the Threat Stack Agent
 ------------------------------
 *Prerequisites*
 
-* Access to the Threat Stack Console 
-* Access to host either via CLI or RDP 
+* Access to the Threat Stack Console
+* Access to host either via CLI or RDP on a supported Operating System architecture(ARM or x86 architecture)
+* Access to a supported browser (Chrome, Edge, Safi, and Firefox)
 
 *Linux/Windows Distributions*
 
@@ -44,7 +42,7 @@ Select Agent 2.x+ The + Add New Server dialog displays. Proceed to the set of in
 .. image:: _static/Deploy_Server_Ubuntu.png
 
 
-Container Distrubutions 
+Container Distributions 
 -----------------------
 The Threat Stack Container Agent can be orchestrated using Kubernetes, Docker, and others. By default, the following rulesets are applied: 
 
