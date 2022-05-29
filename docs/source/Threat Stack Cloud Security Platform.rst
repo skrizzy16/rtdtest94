@@ -94,6 +94,6 @@ https://threatstack.zendesk.com/hc/en-us/articles/205992556-Alert-View
 What is an Alert? 
 -----------------
 
-Alerts are behavior anomalies elevated from the stream of raw telemetry by rule filters, **that do not have a corresponding suppression.**
+Alerts are behavior anomalies elevated from the stream of raw telemetry by rule filters, that do not have a corresponding suppression.
 
 .. image:: _static/Alerts.png
