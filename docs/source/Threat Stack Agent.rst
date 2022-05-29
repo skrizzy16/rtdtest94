@@ -36,7 +36,7 @@ Install the Threat Stack Agent
 *Linux/Windows Distributions*
 
 
-Threat Stack automatically walks customers through an Agent install on the Servers page. 
+The Threat Stack application walks customers through an Agent install on the Servers page.
 
 Log into Threat Stack > Click Servers. The Servers page displays. 
 
