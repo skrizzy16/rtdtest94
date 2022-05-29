@@ -50,9 +50,9 @@ Container Distrubutions
 -----------------------
 The Threat Stack Container Agent can be orchestrated using Kubernetes, Docker, and others. By default, the following rulesets are applied: 
 
-*Base Rule Set 
-*Docker Rule Set 
-*Kubernetes Rule Set
+* Base Rule Set 
+* Docker Rule Set 
+* Kubernetes Rule Set
 
 Helm Chart 
 ----------
@@ -60,8 +60,9 @@ Helm Chart
 Helm is a package manager on top of Kubernetes. It facilitates installation, upgrades, and manages dependencies for the services you install in Kubernetes. 
 
 *Prerequisites*
-*Helm installed 
-*Configured Values file 
+
+* Helm installed 
+* Configured Values file 
 
 
 Install the Threat Stack Helm Chart 
