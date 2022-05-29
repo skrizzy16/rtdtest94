@@ -1,7 +1,5 @@
 API
 ===
+For Additional Details about Threat Stack's API documentation, please refer to the link below:
 
-.. autosummary::
-   :toctree: generated
-
-   lumache
+https://apidocs.threatstack.com/
