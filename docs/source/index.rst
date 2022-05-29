@@ -28,7 +28,7 @@ Check out the :doc:`Threat Stack Cloud Security Platform` section for further in
 
 .. note::
 
-   This project is under active development. Here is an update! Here is another update!
+   This project is under active development. Here is an update! Here is another update! And another! 
 
 Contents
 --------
