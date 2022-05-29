@@ -13,11 +13,10 @@ Check for other Agents
 ----------------------
 
 .. note::
+   Conflict can occur between the Threat Stack host-based Agent and other tools leveraging these kernels. Before deploying the Agent, ensure no other      tools
+   use these kernels. **This is the result of a known Linux limitation where only one process can bind to the AuditD socket. 
    
-  Conflict can occur between the Threat Stack host-based Agent and other tools leveraging these kernels. Before deploying the Agent, ensure no other tools
-  use these kernels. **This is the result of a known Linux limitation where only one process can bind to the AuditD socket. 
-  
-  https://man7.org/linux/man-pages/man5/auditd.conf.5.html
+   https://man7.org/linux/man-pages/man5/auditd.conf.5.html
 
 
 Code Block to Check for The Threat Stack Agent on the machine
