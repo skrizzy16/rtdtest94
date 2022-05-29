@@ -26,3 +26,18 @@ Code Block to Check for The Threat Stack Agent on the machine
    hello world!
 
 
+Install the Threat Stack Agent
+------------------------------
+*Prerequisites*
+
+* Access to the Threat Stack Console 
+* Access to host either via CLI or RDP 
+
+*Linux/Windows Distributions*
+
+
+Threat Stack automatically walks customers through an Agent install on the Servers page. 
+
+Log into Threat Stack > Click Servers. The Servers page displays. 
+
+Select Agent 3.x. The + Add New Server dialog displays. Proceed to the set of instructions below, specific to your Linux or Windows distribution. 
