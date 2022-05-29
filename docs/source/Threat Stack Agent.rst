@@ -42,4 +42,46 @@ Log into Threat Stack > Click Servers. The Servers page displays.
 
 Select Agent 3.x. The + Add New Server dialog displays. Proceed to the set of instructions below, specific to your Linux or Windows distribution. 
 
+.. image:: _static/Deploy_Server_Ubuntu.png
+
+
+Container Distrubutions 
+-----------------------
+The Threat Stack Container Agent can be orchestrated using Kubernetes, Docker, and others. By default, the following rulesets are applied: 
+
+*Base Rule Set 
+*Docker Rule Set 
+*Kubernetes Rule Set
+
+Helm Chart 
+----------
+
+Helm is a package manager on top of Kubernetes. It facilitates installation, upgrades, and manages dependencies for the services you install in Kubernetes. 
+
+*Prerequisites*
+*Helm installed 
+*Configured Values file 
+
+
+Install the Threat Stack Helm Chart 
+-----------------------------------
+
+These instructions assume you already have Helm installed in your environment. It also assumes any Role-Based Access Control (RBAC) configuration has been completed for proper operation of Helm. Please see Installing Helm for instructions on installing Helm in your environment. 
+
+.. code-block:: 
+   
+   hello world!
+   
+
+Uninstall the Helm Chart 
+-------------------------
+To uninstall the Helm chart, run the following command: 
+.. code-block:: 
+   
+   hello world!
+   
+
+Remove an Agent 
+
+To remove the Threat Stack Agent, follow your OS's normal software package removal option. The package was installed via Apt or Yum (even for the curl installer). 
 
