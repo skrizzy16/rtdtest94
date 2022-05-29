@@ -4,11 +4,9 @@ Threat Stack Playbooks
 Section 1
 ---------
 
-TEST
-
-.. code-block:: console
-
-   
+Fill in here   
 
 Section 2
 ---------
+
+Fill in here
