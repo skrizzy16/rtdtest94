@@ -41,3 +41,5 @@ The Threat Stack application walks customers through an Agent install on the Ser
 Log into Threat Stack > Click Servers. The Servers page displays. 
 
 Select Agent 3.x. The + Add New Server dialog displays. Proceed to the set of instructions below, specific to your Linux or Windows distribution. 
+
+
