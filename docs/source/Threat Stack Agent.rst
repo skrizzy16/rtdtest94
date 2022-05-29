@@ -82,6 +82,7 @@ To uninstall the Helm chart, run the following command:
    
 
 Remove an Agent 
+---------------
 
 To remove the Threat Stack Agent, follow your OS's normal software package removal option. The package was installed via Apt or Yum (even for the curl installer). 
 
