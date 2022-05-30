@@ -103,7 +103,7 @@ For example:
 
 .. code-block:: 
    
-   hello world!
+   sudo systemctl stop threatstack
    
 or
 
