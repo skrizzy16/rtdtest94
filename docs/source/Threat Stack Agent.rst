@@ -53,7 +53,7 @@ Select Agent 2.x+ The + Add New Server dialog displays. Proceed to the set of in
    
 .. code-block::
 
-   When deploying the Linux Agent for Ubuntu, you have the option of assigning a server name via the 'hostname' flag on step 3 of update, install and      configure the agent. Instead of the standard instructions provided by the UI, enter the following command to assign an easier to read name as opposed    to the LAN address of the machine HELLO.
+   sudo tsagent setup --deploy-key=XXXXXXXXXXXXXXXX --ruleset="Base Rule Set"
 
 
 Container Distributions 
