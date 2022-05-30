@@ -109,6 +109,8 @@ or
 
 .. code-block:: 
    
-   hello world!
+   sudo dpkg -r threatstack-agent
+
+
 
 
