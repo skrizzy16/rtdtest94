@@ -52,7 +52,8 @@ Select Agent 2.x+ The + Add New Server dialog displays. Proceed to the set of in
    
    
 .. code-block::
-   Test
+
+   TEST
 
 
 Container Distributions 
