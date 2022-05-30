@@ -53,7 +53,7 @@ Select Agent 2.x+ The + Add New Server dialog displays. Proceed to the set of in
    
 .. code-block::
 
-   sudo tsagent setup --deploy-key=XXXXXXXXXXXXXXXX --ruleset="Base Rule Set"
+   sudo tsagent setup --deploy-key=XXXXXXXXXXXXXXXX --ruleset="Base Rule Set" --hostname = "<Your Hostname>"
 
 
 Container Distributions 
