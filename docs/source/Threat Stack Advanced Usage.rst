@@ -65,6 +65,10 @@ All the above telemetry is captured, and evaluated against our rules engine on o
 
 events are retained for 72 hours/3 days from collection, if the activity is collected as an alert, it will be retained for 1 calendar year. There is no way to delete an alert from the platform. If you dismiss it, it will move to the 'dismissed' tab 
 
+.. note::
+
+   It can take 10-15 minutes for a suppression update, as well as 10-15 minutes for new rules to kick in for our backend to update. In addition, while alerts are retained for 1 year, there is a 60k Alert UI cap. As a result, if you were to hypothetically aggregate 20k of alerts per day, you would only have 3 days of visibility at a time.
+
 Lets look at an example in my personal organization.
 
 Investigating Root Cause of activity (linux)
@@ -78,3 +82,27 @@ Investigating Root Cause of activity (cloudtrail)
 -------------------------------------------------
 
 
+Suppression Best Practices
+--------------------------
+When drafting suppressions, there is an inherent risk 
+
+*Good Suppression Example*
+
+.. codeblock::
+  
+   user = 'root' AND tty = null AND cwd = '/usr/bin' AND session = '4294967295' AND auid = '4294967295' AND arguments = 'ps -e -o pid,ppid,state,command'
+
+  
+
+*Bad Suppression Example that will not work*
+
+.. codeblock::
+
+  pid = '3081' AND user = 'root' AND agent_id = "abcdef-1234-4va1-ad42-555bd87fa32a" AND command = 'ps' AND eventtime = '1654270691800'
+  
+
+*Bad Suppression Example that will work, but is too broad*
+
+.. codeblock::
+
+  user = 'root' AND command = 'ps' 
