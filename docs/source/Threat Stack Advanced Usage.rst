@@ -53,25 +53,28 @@ Sample Kubernetes Raw JSON
 All the above telemetry are referred to collectively as *events*. You can see all the raw events in an organization by navigating to the Threat Stack Console, and navigating to the 'events' section of the platform.
 
 
-Lifecycle of an event
----------------------
+Lifecycle of an event and alert
+-------------------------------
 
 All the above telemetry is captured, and evaluated against our rules engine on our backend. The Logic is as follows.
 
 
 1. Collect the event data from the sensor(s) in the organization environment.
-2. Evaluate the filters against a rule logic
+2. Evaluate the filters against a rule logic.
 3. If the event data matches parameters for a rule, while also not be suppressed against the alert will fire.
+
+events are retained for 72 hours/3 days from collection, if the activity is collected as an alert, it will be retained for 1 calendar year. There is no way to delete an alert from the platform. If you dismiss it, it will move to the 'dismissed' tab 
 
 Lets look at an example in my personal organization.
 
+Investigating Root Cause of activity (linux)
+--------------------------------------------
 
 
+Investigating Root Cause of activity (windows)
+----------------------------------------------
+
+Investigating Root Cause of activity (cloudtrail)
+-------------------------------------------------
 
 
-
-
-Section 2
----------
-
-Fill in here
