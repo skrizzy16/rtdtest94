@@ -73,7 +73,7 @@ events are retained for 72 hours/3 days from collection, if the activity is coll
 
 Suppression Best Practices
 --------------------------
-When drafting suppressions, there is an inherent risk 
+When drafting suppressions, there is an inherent risk in overtly suppressing out bad activity. For example, suppressing all root user activity.
 
 *Good Suppression Example*
 
