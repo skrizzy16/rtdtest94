@@ -338,7 +338,7 @@ events are retained for 72 hours/3 days from collection, if the activity is coll
 
    It can take 10-15 minutes for a suppression update, as well as 10-15 minutes for new rules to kick in for our backend to update. In addition, while alerts are retained for 1 year, there is a 60k Alert UI cap. As a result, if you were to hypothetically aggregate 20k of alerts per day, you would only have 3 days of visibility at a time.
 
-Lets look at an example in my personal organization.
+Lets look at an example in my personal organization below.
 
 Investigating Root Cause of activity (linux)
 --------------------------------------------
