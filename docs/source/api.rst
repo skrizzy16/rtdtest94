@@ -11,6 +11,7 @@ Alerts Endpoint
 
 
 GET
+
 *ListAlerts*
 
 *GetAnAlert*
