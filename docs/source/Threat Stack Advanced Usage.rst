@@ -114,4 +114,4 @@ Suppression Best Practices:
 
    I advise leveraging the following values when suppression linux events
 
-   user = 'XXXX' AND tty = 'value' AND session = 'XXXXXXXX' AND arguments starts_with AND arguments like AND exe =
+   user = 'XXXX' AND tty = 'value' AND session = 'XXXXXXXX' AND arguments starts_with AND arguments like AND exe = 'value2'
