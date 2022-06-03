@@ -18,6 +18,16 @@ Threat Stack Collects telemetry from a variety of sensors in the environment, ou
 * Windows events from windows native logging capabilities
 * Sysmon Events should sysmon be configured(which is advised)
 
+
+*Kubernetes*
+
+* Kubernetes API telemetry
+* Cloudtrail data supporting managed kubernetes (EKS Cloudtrail data) if applicable
+
+*AWS Control Plane*
+
+* AWS Cloudtrail Logs
+
 Section 2
 ---------
 
