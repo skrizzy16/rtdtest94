@@ -20,7 +20,6 @@ Sample Linux Host Event
 
 Sample Linux Raw Event JSON
 
-.. codeblock::
 
    {
   "agent_id": "65e341d1-c0d2-11ec-99e9-333bd87d55e3",
@@ -114,8 +113,6 @@ Sample Container Host Event
 
 
 Sample Container Raw Event JSON
-
-.. codeblock::
    
    
 {
@@ -237,8 +234,6 @@ Sample Windows Host Event
 .. image:: _static/SampleWinsec.png
 
 Sample Windows Raw JSON
-
-.. clodeblock::
 
    {
   "agent_id": "7dce3f57-e89d-11eb-aa4d-67d11ed42ec3",
