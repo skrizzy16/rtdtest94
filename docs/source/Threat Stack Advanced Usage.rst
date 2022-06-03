@@ -33,7 +33,6 @@ Sample Windows Raw JSON
 
 
 
-
 *Kubernetes*
 
 * Kubernetes API telemetry
@@ -90,7 +89,7 @@ When drafting suppressions, there is an inherent risk
 
 .. codeblock::
   
-   user = 'root' AND tty = null AND cwd = '/usr/bin' AND session = '4294967295' AND auid = '4294967295' AND arguments = 'ps -e -o pid,ppid,state,command'
+   user = 'root' AND tty = null AND cwd = '/usr/bin' AND session = '4294967295' AND auid = '4294967295' AND arguments = 'ps -e -o pid,ppid,state,command'    AND exe = '/usr/sbin/chronyd'
 
   
 
@@ -98,7 +97,7 @@ When drafting suppressions, there is an inherent risk
 
 .. codeblock::
 
-  pid = '3081' AND user = 'root' AND agent_id = "abcdef-1234-4va1-ad42-555bd87fa32a" AND command = 'ps' AND eventtime = '1654270691800'
+  pid = '3081' AND user = 'root' AND agent_id = "abcdef-1234-4va1-ad42-555bd87fa32a" AND command = 'ps' AND event_time = '1654270691800'
   
 
 *Bad Suppression Example that will work, but is too broad*
@@ -106,3 +105,13 @@ When drafting suppressions, there is an inherent risk
 .. codeblock::
 
   user = 'root' AND command = 'ps' 
+  
+  
+  
+Suppression Best Practices:
+
+.. note::
+
+   I advise leveraging the following values when suppression linux events
+
+   user = 'XXXX' AND tty = 'value' AND session = 'XXXXXXXX' AND arguments starts_with AND arguments like AND exe =
