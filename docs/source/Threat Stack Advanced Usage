@@ -1,10 +1,18 @@
-Threat Stack Playbooks
-=====================================
+Threat Stack Advanced Usage Guide
+==================================
 
-Section 1
+Lifecycle of An Alert
 ---------
 
-Fill in here   
+Threat Stack Collects telemetry from a variety of sensors in the environment, outlined below.
+
+*Linux/Containers*
+
+* FIM changes via inotify/FAnotify
+* Agent collection of auditd socket
+* Docker/Container Telemetry through the use of tscontainerd which utilizes docker APIs to augment existing audit messages referencing the original docker container
+
+
 
 Section 2
 ---------
