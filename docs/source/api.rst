@@ -28,6 +28,7 @@ POST
 *DismissAlerts*
 
 Rules/Rulesets Endpoint
+=======================
 
 GET
 
