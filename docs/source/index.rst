@@ -26,9 +26,6 @@ Additionally, we can become an extension of your security team via our co-manage
 
 Check out the :doc:`Threat Stack Cloud Security Platform` section for further information
 
-.. note::
-
-   This project is under active development. Update.
 
 Contents
 --------
