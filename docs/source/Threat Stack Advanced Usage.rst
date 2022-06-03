@@ -70,18 +70,6 @@ events are retained for 72 hours/3 days from collection, if the activity is coll
    
    It can take 10-15 minutes for a suppression update, as well as 10-15 minutes for new rules to kick in for our backend to update. In addition, while      alerts are retained for 1 year, there is a 60k Alert UI cap. As a result, if you were to hypothetically aggregate 20k of alerts per day, you would      only have 3 days of visibility at a time.
 
-Lets look at an example in my personal organization.
-
-Investigating Root Cause of activity (linux)
---------------------------------------------
-
-
-Investigating Root Cause of activity (windows)
-----------------------------------------------
-
-Investigating Root Cause of activity (cloudtrail)
--------------------------------------------------
-
 
 Suppression Best Practices
 --------------------------
@@ -109,12 +97,12 @@ When drafting suppressions, there is an inherent risk
 
   user = 'root' AND command = 'ps' 
   
-  
-  
-Suppression Best Practices:
 
-.. note::
 
-   I advise leveraging the following values when suppression linux events
+EventSearch
+============
 
-   user = 'XXXX' AND tty = 'value' AND session = 'XXXXXXXX' AND arguments starts_with AND arguments like AND exe = 'value2'
+When leveraging event Search I advise leveraging the supported key words and operators use case here:
+
+https://threatstack.zendesk.com/hc/en-us/articles/200194909-Supported-Keys-and-Operators
+
