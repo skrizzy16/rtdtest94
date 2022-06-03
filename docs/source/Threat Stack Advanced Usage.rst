@@ -5,7 +5,7 @@ Threat Stack Advanced Usage Guide
 Types of Events
 ---------------
 
-Threat Stack Collects telemetry from a variety of sensors in the environment, outlined below. They are all stored in JSON format
+Threat Stack Collects telemetry from a variety of sensors in the environment, outlined below. They are all stored in JSON format.
 
 *Linux/Containers*
 
